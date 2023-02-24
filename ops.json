@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "uuid": "8a36fe9b-a0df-4bec-ab15-73a92c3c2c96",
+    "name": "ChocoVani",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "70e8a532-b20f-475e-af80-856c6efaadf6",
+    "name": "god_desu",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "bcb92ab9-9f52-43db-8c51-a356a2cf13b8",
+    "name": "ItsNobro",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

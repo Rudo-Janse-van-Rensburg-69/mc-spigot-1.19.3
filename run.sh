@@ -1,1 +1,1 @@
-java -Xms4G -Xmx7G -jar ./spigot-1.19.3.jar -nogui 
+java -Xms4G -Xmx14G -jar ./spigot-1.19.3.jar -nogui 

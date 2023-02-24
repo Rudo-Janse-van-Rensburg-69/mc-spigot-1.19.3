@@ -1,261 +1,742 @@
-[16:54:56] [ServerMain/INFO]: Building unoptimized datafixer
-[16:54:58] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:55:00] [ServerMain/INFO]: Loaded 7 recipes
-[16:55:01] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[16:55:01] [Server thread/INFO]: Loading properties
-[16:55:01] [Server thread/INFO]: This server is running CraftBukkit version 3661-Spigot-19641c7-8434e36 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT)
-[16:55:01] [Server thread/INFO]: Debug logging is disabled
-[16:55:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:55:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:55:01] [Server thread/INFO]: Default game type: SURVIVAL
-[16:55:01] [Server thread/INFO]: Generating keypair
-[16:55:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:55:01] [Server thread/INFO]: Using epoll channel type
-[16:55:02] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[16:55:02] [Server thread/INFO]: [MultipleBedSpawn] Loading MultipleBedSpawn v1.4.1
-[16:55:02] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.13+46576cc
-[16:55:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3b980ed4]
-[16:55:02] [Server thread/INFO]: [spark] Loading spark v1.10.29
-[16:55:02] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
-[16:55:02] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.7+216b061
-[16:55:02] [Server thread/INFO]: [ChestSort] Loading ChestSort v13.5.1
-[16:55:02] [Server thread/INFO]: [MultipleBedSpawn] Enabling MultipleBedSpawn v1.4.1
-[16:55:02] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.13+46576cc
-[16:55:02] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:55:02] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:55:02] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R2.PaperweightAdapter as the Bukkit adapter
-[16:55:04] [Server thread/INFO]: [WorldEdit] ====================================================
-[16:55:04] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[16:55:04] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[16:55:04] [Server thread/INFO]: [WorldEdit]   
-[16:55:04] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[16:55:04] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[16:55:04] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[16:55:04] [Server thread/INFO]: [WorldEdit]   
-[16:55:04] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[16:55:04] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[16:55:04] [Server thread/INFO]: [WorldEdit]   
-[16:55:04] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[16:55:04] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[16:55:04] [Server thread/INFO]: [WorldEdit]   
-[16:55:04] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[16:55:04] [Server thread/INFO]: [WorldEdit] ====================================================
-[16:55:04] [Server thread/INFO]: Preparing level "world"
-[16:55:04] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:55:04] [Server thread/INFO]: Mob Spawn Range: 6
-[16:55:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[16:55:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:55:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[16:55:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:55:04] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:55:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[16:55:04] [Server thread/INFO]: Max TNT Explosions: 100
-[16:55:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:55:04] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:55:04] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:55:04] [Server thread/INFO]: View Distance: 10
-[16:55:04] [Server thread/INFO]: Simulation Distance: 10
-[16:55:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:55:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:55:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:55:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:55:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:55:05] [Server thread/INFO]: Mob Spawn Range: 6
-[16:55:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[16:55:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:55:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[16:55:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:55:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:55:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[16:55:05] [Server thread/INFO]: Max TNT Explosions: 100
-[16:55:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:55:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:55:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:55:05] [Server thread/INFO]: View Distance: 10
-[16:55:05] [Server thread/INFO]: Simulation Distance: 10
-[16:55:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:55:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:55:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:55:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:55:06] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:55:06] [Server thread/INFO]: Mob Spawn Range: 6
-[16:55:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[16:55:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:55:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[16:55:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:55:06] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:55:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[16:55:06] [Server thread/INFO]: Max TNT Explosions: 100
-[16:55:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:55:06] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:55:06] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:55:06] [Server thread/INFO]: View Distance: 10
-[16:55:06] [Server thread/INFO]: Simulation Distance: 10
-[16:55:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:55:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:55:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:55:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:55:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:55:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:55:10] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[16:55:10] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[16:55:10] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[16:55:10] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[16:55:10] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[16:55:10] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[16:55:10] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[16:55:10] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[16:55:11] [Worker-Main-5/INFO]: Preparing spawn area: 27%
-[16:55:11] [Worker-Main-4/INFO]: Preparing spawn area: 71%
-[16:55:12] [Server thread/INFO]: Time elapsed: 5465 ms
-[16:55:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:55:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[16:55:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:55:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:55:14] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[16:55:14] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[16:55:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:55:15] [Worker-Main-2/INFO]: Preparing spawn area: 56%
-[16:55:15] [Server thread/INFO]: Time elapsed: 3265 ms
-[16:55:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:55:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:55:16] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[16:55:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:55:17] [Worker-Main-3/INFO]: Preparing spawn area: 17%
-[16:55:17] [Server thread/INFO]: Time elapsed: 1960 ms
-[16:55:17] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[16:55:17] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[16:55:17] [Server thread/INFO]: [ClearLag] Loading modules...
-[16:55:17] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_19_R2.MinecraftServer)
-[16:55:17] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[16:55:17] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[16:55:17] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[16:55:17] [Server thread/INFO]: [spark] Enabling spark v1.10.29
-[16:55:17] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.19]...
-[16:55:18] [Thread-9/INFO]: [ClearLag] No updates found!
-[16:55:18] [Server thread/INFO]: [spark] Using Bukkit scheduler for tick monitoring
-[16:55:18] [Server thread/INFO]: [spark] Starting background profiler...
-[16:55:18] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
-[16:55:18] [Server thread/INFO]: 
-[16:55:18] [Server thread/INFO]:     __                      ____                                         _    _____
-[16:55:18] [Server thread/INFO]:    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
-[16:55:18] [Server thread/INFO]:   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
-[16:55:18] [Server thread/INFO]:  / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
-[16:55:18] [Server thread/INFO]: /_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
-[16:55:18] [Server thread/INFO]:             /____//____/
-[16:55:18] [Server thread/INFO]: 
-[16:55:18] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
-[16:55:18] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
-[16:55:18] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
-[16:55:18] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
-[16:55:19] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[16:55:19] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[16:55:19] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[16:55:19] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[16:55:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[16:55:19] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[16:55:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[16:55:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[16:55:19] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[16:55:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[16:55:19] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[16:55:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[16:55:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[16:55:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[16:55:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[16:55:19] [Server thread/INFO]: [WorldGuard] Loading region data...
-[16:55:19] [Server thread/INFO]: [ChestSort] Enabling ChestSort v13.5.1
-[16:55:19] [Server thread/INFO]: [ChestSort] Hooked into WorldGuard 7.0.7+216b061
-[16:55:19] [Server thread/INFO]: [ChestSort] Use permissions: true
-[16:55:19] [Server thread/INFO]: [ChestSort] Current sorting method: {category},{itemsFirst},{name},{color},{customName}
-[16:55:19] [Server thread/INFO]: [ChestSort] Allow automatic chest sorting:true
-[16:55:19] [Server thread/INFO]: [ChestSort]   |- Chest sorting enabled by default: false
-[16:55:19] [Server thread/INFO]: [ChestSort]   |- Sort time: close
-[16:55:19] [Server thread/INFO]: [ChestSort] Allow automatic inventory sorting:true
-[16:55:19] [Server thread/INFO]: [ChestSort]   |- Inventory sorting enabled by default: false
-[16:55:19] [Server thread/INFO]: [ChestSort] Auto generate category files: true
-[16:55:19] [Server thread/INFO]: [ChestSort] Allow hotkeys: true
-[16:55:19] [Server thread/INFO]: [ChestSort] Hotkeys enabled by default:
-[16:55:19] [Server thread/INFO]: [ChestSort]   |- Middle-Click: true
-[16:55:19] [Server thread/INFO]: [ChestSort]   |- Shift-Click: true
-[16:55:19] [Server thread/INFO]: [ChestSort]   |- Double-Click: true
-[16:55:19] [Server thread/INFO]: [ChestSort]   |- Shift-Right-Click: true
-[16:55:19] [Server thread/INFO]: [ChestSort] Allow additional hotkeys: true
-[16:55:19] [Server thread/INFO]: [ChestSort] Additional hotkeys enabled by default:
-[16:55:19] [Server thread/INFO]: [ChestSort]   |- Left-Click: false
-[16:55:19] [Server thread/INFO]: [ChestSort]   |- Right-Click: false
-[16:55:19] [Server thread/INFO]: [ChestSort] Check for updates: true
-[16:55:19] [Server thread/INFO]: [ChestSort] Check interval: 4 hours (4.0 seconds)
-[16:55:19] [Server thread/INFO]: [ChestSort] Categories: 900-weapons (6), 905-common-tools (4), 907-other-tools (6), 909-food (33), 910-valuables (47), 920-armor-and-arrows (9), 930-brewing (18), 950-redstone (23), 960-wood (60), 970-stone (38), 980-plants (50), 981-corals (1)
-[16:55:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:55:19] [Server thread/INFO]: Done (15.277s)! For help, type "help"
-[16:56:32] [Server thread/INFO]: Stopping the server
-[16:56:32] [Server thread/INFO]: Stopping server
-[16:56:32] [Server thread/INFO]: [ChestSort] Disabling ChestSort v13.5.1
-[16:56:32] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
-[16:56:32] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[16:56:32] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v2.0.6
-[16:56:32] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
-[16:56:32] [Server thread/INFO]: [spark] Disabling spark v1.10.29
-[16:56:32] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.13+46576cc
-[16:56:32] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[16:56:32] [Server thread/INFO]: [MultipleBedSpawn] Disabling MultipleBedSpawn v1.4.1
-[16:56:32] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[16:56:32] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[16:56:32] [Server thread/INFO]: Saving players
-[16:56:32] [Server thread/INFO]: Saving worlds
-[16:56:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:41:53] [ServerMain/INFO]: Building unoptimized datafixer
+[20:41:54] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:41:56] [ServerMain/INFO]: Loaded 7 recipes
+[20:41:56] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[20:41:56] [Server thread/INFO]: Loading properties
+[20:41:56] [Server thread/INFO]: This server is running CraftBukkit version 3661-Spigot-19641c7-8434e36 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT)
+[20:41:56] [Server thread/INFO]: Debug logging is disabled
+[20:41:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:41:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:41:56] [Server thread/INFO]: Default game type: SURVIVAL
+[20:41:56] [Server thread/INFO]: Generating keypair
+[20:41:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:41:57] [Server thread/INFO]: Using epoll channel type
+[20:41:57] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[20:41:57] [Server thread/INFO]: [MultipleBedSpawn] Loading MultipleBedSpawn v1.4.1
+[20:41:57] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.13+46576cc
+[20:41:58] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6a2cacb0]
+[20:41:58] [Server thread/INFO]: [spark] Loading spark v1.10.29
+[20:41:58] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
+[20:41:58] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.7+216b061
+[20:41:58] [Server thread/INFO]: [ChestSort] Loading ChestSort v13.5.1
+[20:41:58] [Server thread/INFO]: [MultipleBedSpawn] Enabling MultipleBedSpawn v1.4.1
+[20:41:58] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.13+46576cc
+[20:41:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:41:58] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:41:58] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R2.PaperweightAdapter as the Bukkit adapter
+[20:41:59] [Server thread/INFO]: [WorldEdit] ====================================================
+[20:41:59] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[20:41:59] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[20:41:59] [Server thread/INFO]: [WorldEdit]   
+[20:41:59] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[20:41:59] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[20:41:59] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[20:41:59] [Server thread/INFO]: [WorldEdit]   
+[20:41:59] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[20:41:59] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[20:41:59] [Server thread/INFO]: [WorldEdit]   
+[20:41:59] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[20:41:59] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[20:41:59] [Server thread/INFO]: [WorldEdit]   
+[20:41:59] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[20:41:59] [Server thread/INFO]: [WorldEdit] ====================================================
+[20:41:59] [Server thread/INFO]: Preparing level "world"
+[20:42:00] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:42:00] [Server thread/INFO]: Mob Spawn Range: 6
+[20:42:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:42:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:42:00] [Server thread/INFO]: Max TNT Explosions: 100
+[20:42:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:42:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:42:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:42:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20:42:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:42:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:42:00] [Server thread/INFO]: View Distance: 12
+[20:42:00] [Server thread/INFO]: Simulation Distance: 10
+[20:42:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:42:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:42:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:42:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:42:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:42:00] [Server thread/INFO]: Mob Spawn Range: 6
+[20:42:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:42:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:42:00] [Server thread/INFO]: Max TNT Explosions: 100
+[20:42:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:42:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[20:42:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:42:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:42:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20:42:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:42:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:42:00] [Server thread/INFO]: View Distance: 12
+[20:42:00] [Server thread/INFO]: Simulation Distance: 10
+[20:42:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:42:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:42:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:42:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:42:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:42:03] [Server thread/INFO]: Mob Spawn Range: 6
+[20:42:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:42:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:42:03] [Server thread/INFO]: Max TNT Explosions: 100
+[20:42:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:42:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[20:42:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:42:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:42:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20:42:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:42:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:42:03] [Server thread/INFO]: View Distance: 12
+[20:42:03] [Server thread/INFO]: Simulation Distance: 10
+[20:42:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:42:03] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:42:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:42:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:42:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:42:07] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:42:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:42:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:42:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:42:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:42:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:42:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:42:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:42:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:42:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:42:08] [Worker-Main-3/INFO]: Preparing spawn area: 1%
+[20:42:09] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[20:42:09] [Worker-Main-3/INFO]: Preparing spawn area: 69%
+[20:42:09] [Server thread/INFO]: Time elapsed: 6213 ms
+[20:42:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:42:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:42:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:42:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:42:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:42:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:42:12] [Worker-Main-1/INFO]: Preparing spawn area: 15%
+[20:42:12] [Worker-Main-3/INFO]: Preparing spawn area: 67%
+[20:42:13] [Server thread/INFO]: Time elapsed: 3240 ms
+[20:42:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:42:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:42:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:42:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:42:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:42:15] [Worker-Main-2/INFO]: Preparing spawn area: 32%
+[20:42:15] [Server thread/INFO]: Time elapsed: 2376 ms
+[20:42:15] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[20:42:15] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[20:42:15] [Server thread/INFO]: [ClearLag] Loading modules...
+[20:42:15] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_19_R2.MinecraftServer)
+[20:42:15] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[20:42:15] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[20:42:15] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[20:42:15] [Server thread/INFO]: [spark] Enabling spark v1.10.29
+[20:42:15] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.19]...
+[20:42:15] [Server thread/INFO]: [spark] Using Bukkit scheduler for tick monitoring
+[20:42:15] [Server thread/INFO]: [spark] Starting background profiler...
+[20:42:15] [Thread-9/INFO]: [ClearLag] No updates found!
+[20:42:16] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[20:42:16] [Server thread/INFO]: 
+[20:42:16] [Server thread/INFO]:     __                      ____                                         _    _____
+[20:42:16] [Server thread/INFO]:    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
+[20:42:16] [Server thread/INFO]:   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
+[20:42:16] [Server thread/INFO]:  / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
+[20:42:16] [Server thread/INFO]: /_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
+[20:42:16] [Server thread/INFO]:             /____//____/
+[20:42:16] [Server thread/INFO]: 
+[20:42:16] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[20:42:16] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[20:42:16] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[20:42:16] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
+[20:42:16] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:42:16] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:42:16] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:42:16] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:42:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:42:16] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:42:16] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:42:16] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:42:16] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:42:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:42:16] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:42:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:42:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:42:16] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:42:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:42:16] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:42:16] [Server thread/INFO]: [ChestSort] Enabling ChestSort v13.5.1
+[20:42:16] [Server thread/INFO]: [ChestSort] Hooked into WorldGuard 7.0.7+216b061
+[20:42:16] [Server thread/INFO]: [ChestSort] Use permissions: true
+[20:42:16] [Server thread/INFO]: [ChestSort] Current sorting method: {category},{itemsFirst},{name},{color},{customName}
+[20:42:16] [Server thread/INFO]: [ChestSort] Allow automatic chest sorting:true
+[20:42:16] [Server thread/INFO]: [ChestSort]   |- Chest sorting enabled by default: false
+[20:42:16] [Server thread/INFO]: [ChestSort]   |- Sort time: close
+[20:42:16] [Server thread/INFO]: [ChestSort] Allow automatic inventory sorting:true
+[20:42:16] [Server thread/INFO]: [ChestSort]   |- Inventory sorting enabled by default: false
+[20:42:16] [Server thread/INFO]: [ChestSort] Auto generate category files: true
+[20:42:16] [Server thread/INFO]: [ChestSort] Allow hotkeys: true
+[20:42:16] [Server thread/INFO]: [ChestSort] Hotkeys enabled by default:
+[20:42:16] [Server thread/INFO]: [ChestSort]   |- Middle-Click: true
+[20:42:16] [Server thread/INFO]: [ChestSort]   |- Shift-Click: true
+[20:42:16] [Server thread/INFO]: [ChestSort]   |- Double-Click: true
+[20:42:16] [Server thread/INFO]: [ChestSort]   |- Shift-Right-Click: true
+[20:42:16] [Server thread/INFO]: [ChestSort] Allow additional hotkeys: true
+[20:42:16] [Server thread/INFO]: [ChestSort] Additional hotkeys enabled by default:
+[20:42:16] [Server thread/INFO]: [ChestSort]   |- Left-Click: false
+[20:42:16] [Server thread/INFO]: [ChestSort]   |- Right-Click: false
+[20:42:16] [Server thread/INFO]: [ChestSort] Check for updates: true
+[20:42:16] [Server thread/INFO]: [ChestSort] Check interval: 4 hours (4.0 seconds)
+[20:42:16] [Server thread/INFO]: [ChestSort] Categories: 900-weapons (6), 905-common-tools (4), 907-other-tools (6), 909-food (33), 910-valuables (47), 920-armor-and-arrows (9), 930-brewing (18), 950-redstone (23), 960-wood (60), 970-stone (38), 980-plants (50), 981-corals (1)
+[20:42:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:42:16] [Server thread/INFO]: Done (16.768s)! For help, type "help"
+[20:42:47] [User Authenticator #1/INFO]: UUID of player god_desu is 70e8a532-b20f-475e-af80-856c6efaadf6
+[20:42:47] [Server thread/INFO]: god_desu joined the game
+[20:42:48] [Server thread/INFO]: god_desu[/155.93.167.166:38220] logged in with entity id 119 at ([world]1767.8346021422487, 305.0, 3764.8041523171823)
+[20:43:09] [Server thread/INFO]: god_desu issued server command: //stack 20
+[20:44:04] [Server thread/INFO]: [@: Teleported god_desu to 1910.500000, 70.000000, 3650.500000]
+[20:45:54] [User Authenticator #2/INFO]: UUID of player ChocoVani is 8a36fe9b-a0df-4bec-ab15-73a92c3c2c96
+[20:45:54] [Server thread/INFO]: ChocoVani joined the game
+[20:45:54] [Server thread/INFO]: ChocoVani[/165.73.40.237:1253] logged in with entity id 1242 at ([world]1775.5, 305.0, 3770.5)
+[20:46:18] [Server thread/INFO]: god_desu issued server command: /tp ChocoVani
+[20:46:18] [Server thread/INFO]: [god_desu: Teleported god_desu to ChocoVani]
+[20:47:22] [User Authenticator #3/INFO]: UUID of player SARGE717 is 92ab3ca8-fcae-4cc9-9350-6f0d08b7b78e
+[20:47:22] [Server thread/INFO]: SARGE717 joined the game
+[20:47:22] [Server thread/INFO]: SARGE717[/102.65.121.92:55831] logged in with entity id 1431 at ([world]1769.6396790285833, 305.0, 3768.4082999723973)
+[20:47:47] [Server thread/INFO]: [@: Teleported god_desu to 1910.500000, 70.000000, 3650.500000]
+[20:47:59] [Server thread/INFO]: [@: Teleported SARGE717 to 1910.500000, 70.000000, 3650.500000]
+[20:48:07] [Server thread/INFO]: god_desu issued server command: /op ChocoVani
+[20:48:07] [Server thread/INFO]: [god_desu: Made ChocoVani a server operator]
+[20:48:10] [Server thread/INFO]: [@: Teleported ChocoVani to 1910.500000, 70.000000, 3650.500000]
+[20:49:50] [Server thread/INFO]: god_desu issued server command: //hcyl white_concrete 80 500
+[20:51:03] [Server thread/INFO]: god_desu issued server command: //undo
+[20:51:24] [Server thread/INFO]: god_desu issued server command: /gamemode creative ChocoVani
+[20:51:24] [Server thread/INFO]: [god_desu: Set ChocoVani's game mode to Creative Mode]
+[20:51:41] [Server thread/INFO]: god_desu issued server command: //hcyl white_concrete 70 1
+[20:51:54] [Server thread/INFO]: god_desu issued server command: //undo
+[20:52:00] [Server thread/INFO]: god_desu issued server command: //hcyl white_concrete 50 1
+[20:52:03] [Server thread/INFO]: god_desu issued server command: //undo
+[20:52:07] [Server thread/INFO]: god_desu issued server command: //hcyl white_concrete 40 1
+[20:52:31] [Server thread/INFO]: god_desu issued server command: //cyl air 40 1000
+[20:52:59] [Server thread/INFO]: god_desu issued server command: //hcyl white_concrete 40 1000
+[20:53:15] [Server thread/INFO]: god_desu issued server command: /gamemode creative SARGE717
+[20:53:15] [Server thread/INFO]: [god_desu: Set SARGE717's game mode to Creative Mode]
+[20:53:50] [Server thread/INFO]: god_desu issued server command: //stack 100
+[20:54:05] [Server thread/INFO]: god_desu issued server command: //stack 1000
+[20:54:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10319ms or 206 ticks behind
+[20:54:15] [Server thread/WARN]: god_desu moved too quickly! -1.8584138333390001,9.937500740308792,-0.21467744871461036
+[20:54:15] [Server thread/WARN]: SARGE717 moved too quickly! -1.4142763812897101,-4.687940984705065,-8.7939146374747
+[20:54:20] [Server thread/INFO]: god_desu issued server command: //undo
+[20:54:28] [Server thread/INFO]: god_desu issued server command: //stack 1000
+[20:55:28] [Server thread/INFO]: god_desu issued server command: //set air
+[20:55:31] [Server thread/INFO]: god_desu issued server command: //stack 20
+[20:55:45] [Server thread/INFO]: god_desu issued server command: //hcyl air 40 1000
+[20:55:53] [Server thread/INFO]: SARGE717 issued server command: /
+[20:55:58] [Server thread/INFO]: god_desu issued server command: //cyl grass_block 40 1000
+[20:56:02] [Server thread/INFO]: god_desu issued server command: //unndo
+[20:56:06] [Server thread/INFO]: god_desu issued server command: //undo
+[20:56:15] [Server thread/INFO]: god_desu issued server command: //cyl grass_block 40 1
+[20:56:25] [Server thread/INFO]: god_desu issued server command: /tp SARGE717 god_desu
+[20:56:25] [Server thread/INFO]: [god_desu: Teleported SARGE717 to god_desu]
+[20:57:41] [Server thread/INFO]: god_desu issued server command: //set white_stained_glass
+[20:57:48] [Server thread/INFO]: god_desu issued server command: //stack 1000
+[20:58:22] [Server thread/INFO]: god_desu issued server command: //pyramid diamond_block 1
+[20:58:25] [Server thread/INFO]: god_desu issued server command: //pyramid diamond_block 2
+[20:58:33] [Server thread/INFO]: god_desu issued server command: //undo
+[20:58:37] [Server thread/INFO]: god_desu issued server command: //pyramid diamond_block 5
+[20:58:56] [Server thread/INFO]: god_desu issued server command: //pyramid diamond_block 5
+[21:00:35] [Server thread/INFO]: god_desu has made the advancement [Diamonds!]
+[21:01:22] [Server thread/INFO]: god_desu issued server command: /tp god_desu SARGE717
+[21:01:22] [Server thread/INFO]: [god_desu: Teleported god_desu to SARGE717]
+[21:06:29] [Server thread/INFO]: god_desu issued server command: /setworldspawn
+[21:06:29] [Server thread/INFO]: [god_desu: Set the world spawn point to 1771, 304, 3771 [0.0]]
+[21:12:48] [Server thread/INFO]: god_desu issued server command: /tp ChocoVani
+[21:12:48] [Server thread/INFO]: [god_desu: Teleported god_desu to ChocoVani]
+[21:19:24] [Server thread/INFO]: god_desu issued server command: //wand
+[21:21:59] [Server thread/INFO]: god_desu issued server command: //set air
+[21:22:56] [Server thread/INFO]: god_desu issued server command: //stack 10
+[21:23:01] [Server thread/INFO]: god_desu issued server command: //undo
+[21:23:11] [Server thread/INFO]: god_desu issued server command: //stack 20
+[21:23:23] [Server thread/INFO]: god_desu issued server command: //undo
+[21:23:25] [Server thread/INFO]: god_desu issued server command: //stack 25
+[21:23:30] [Server thread/INFO]: god_desu issued server command: //undo
+[21:23:33] [Server thread/INFO]: god_desu issued server command: //stack 30
+[21:23:48] [Server thread/INFO]: god_desu issued server command: //undo
+[21:24:11] [Server thread/INFO]: god_desu issued server command: //redo
+[21:24:15] [Server thread/INFO]: god_desu issued server command: //stack 30
+[21:24:19] [Server thread/INFO]: god_desu issued server command: //stack 30
+[21:24:24] [Server thread/INFO]: god_desu issued server command: //stack 30
+[21:25:18] [Server thread/INFO]: god_desu issued server command: //stack 10
+[21:25:27] [Server thread/INFO]: god_desu issued server command: //undo
+[21:25:29] [Server thread/INFO]: god_desu issued server command: //stack 20
+[21:26:46] [Server thread/INFO]: god_desu issued server command: //cyl air 50 1
+[21:27:09] [Server thread/INFO]: god_desu issued server command: //stack 35
+[21:27:14] [Server thread/INFO]: god_desu issued server command: //stack 35
+[21:27:55] [Server thread/INFO]: god_desu issued server command: //undo
+[21:27:56] [Server thread/INFO]: god_desu issued server command: //undo
+[21:28:21] [Server thread/INFO]: god_desu issued server command: //stack 35
+[21:28:25] [Server thread/INFO]: god_desu issued server command: //stack 35
+[21:30:10] [Server thread/INFO]: god_desu issued server command: //stack 35
+[21:30:16] [Server thread/INFO]: ChocoVani lost connection: Disconnected
+[21:30:16] [Server thread/INFO]: ChocoVani left the game
+[21:30:18] [Server thread/INFO]: god_desu issued server command: //undo
+[21:30:21] [Server thread/INFO]: god_desu issued server command: //stack 50
+[21:30:24] [Server thread/INFO]: god_desu issued server command: //undo
+[21:30:27] [Server thread/INFO]: god_desu issued server command: //stack 55
+[21:30:32] [Server thread/INFO]: god_desu issued server command: //undo
+[21:30:34] [Server thread/INFO]: god_desu issued server command: //stack 56
+[21:30:50] [Server thread/INFO]: god_desu issued server command: //stack 56
+[21:31:01] [Server thread/INFO]: god_desu issued server command: //stack 56
+[21:31:13] [Server thread/INFO]: god_desu issued server command: //stack 56
+[21:31:45] [Server thread/INFO]: god_desu has made the advancement [Getting an Upgrade]
+[21:34:31] [Server thread/INFO]: god_desu issued server command: //cyl warped_nylium 40 1
+[21:35:17] [Server thread/INFO]: god_desu issued server command: //wand
+[21:35:33] [Server thread/INFO]: god_desu issued server command: //set air
+[21:35:35] [Server thread/INFO]: god_desu issued server command: //stack 10
+[21:35:43] [Server thread/INFO]: god_desu issued server command: //undo
+[21:35:45] [Server thread/INFO]: god_desu issued server command: //stack 15
+[21:35:53] [Server thread/INFO]: god_desu issued server command: //stack 15
+[21:35:59] [Server thread/INFO]: god_desu issued server command: //stack 15
+[21:36:04] [Server thread/INFO]: god_desu issued server command: //stack 15
+[21:36:25] [Server thread/INFO]: god_desu issued server command: //set air
+[21:36:29] [Server thread/INFO]: god_desu issued server command: //stack 15
+[21:36:54] [Server thread/INFO]: god_desu issued server command: //set air
+[21:36:58] [Server thread/INFO]: god_desu issued server command: //stack 15
+[21:37:20] [Server thread/INFO]: god_desu issued server command: //set air
+[21:39:17] [Server thread/INFO]: god_desu issued server command: //stack 3
+[21:39:29] [Server thread/INFO]: god_desu issued server command: ///undo
+[21:39:34] [Server thread/INFO]: god_desu issued server command: //undo
+[21:39:47] [Server thread/INFO]: god_desu issued server command: //stack 1
+[21:39:49] [Server thread/INFO]: god_desu issued server command: //set air
+[21:41:00] [Server thread/INFO]: god_desu issued server command: //set air
+[21:41:04] [Server thread/INFO]: god_desu issued server command: //stack 300
+[21:41:43] [Server thread/INFO]: god_desu issued server command: //set air
+[21:41:44] [Server thread/INFO]: god_desu issued server command: //stack 300
+[21:41:50] [Server thread/INFO]: god_desu issued server command: //undo
+[21:42:01] [Server thread/INFO]: god_desu issued server command: /tp SARGE717
+[21:42:01] [Server thread/INFO]: [god_desu: Teleported god_desu to SARGE717]
+[21:42:18] [Server thread/INFO]: god_desu issued server command: //set air
+[21:42:23] [Server thread/INFO]: god_desu issued server command: //stack 300
+[21:42:34] [Server thread/INFO]: god_desu issued server command: //stack 5
+[21:42:38] [Server thread/INFO]: god_desu issued server command: //undo
+[21:42:40] [Server thread/INFO]: god_desu issued server command: //stack 6
+[21:44:31] [Server thread/INFO]: SARGE717 has made the advancement [Who is Cutting Onions?]
+[21:45:17] [Server thread/INFO]: god_desu issued server command: //stack 10
+[21:45:20] [Server thread/INFO]: god_desu issued server command: //undo
+[21:46:04] [Server thread/INFO]: god_desu issued server command: //stack 4
+[21:46:14] [Server thread/INFO]: god_desu issued server command: //undo
+[21:46:20] [Server thread/INFO]: god_desu issued server command: //stack 4
+[21:46:42] [Server thread/INFO]: god_desu has made the advancement [Who is Cutting Onions?]
+[21:47:10] [Server thread/INFO]: god_desu issued server command: //stack 10
+[21:47:43] [Server thread/INFO]: god_desu issued server command: //stack 20
+[21:48:01] [Server thread/INFO]: god_desu issued server command: //stack 3
+[21:48:07] [Server thread/INFO]: god_desu issued server command: //undo
+[21:48:10] [Server thread/INFO]: god_desu issued server command: //stack 6
+[21:48:28] [Server thread/INFO]: god_desu issued server command: //stack 20
+[21:48:39] [Server thread/INFO]: god_desu issued server command: //stack 6
+[21:48:55] [Server thread/INFO]: god_desu issued server command: //stack 20
+[21:49:02] [Server thread/INFO]: god_desu issued server command: //stack 20
+[21:49:15] [Server thread/INFO]: god_desu issued server command: //stack 6
+[21:49:31] [Server thread/INFO]: god_desu issued server command: //stack 6
+[21:49:52] [Server thread/INFO]: god_desu issued server command: //stack 6
+[21:49:59] [Server thread/INFO]: god_desu issued server command: //stack 6
+[21:50:13] [Server thread/INFO]: god_desu issued server command: //stack 6
+[21:50:16] [Server thread/INFO]: god_desu issued server command: //stack 6
+[21:50:25] [Server thread/INFO]: god_desu issued server command: //stack 6
+[21:50:29] [Server thread/INFO]: god_desu issued server command: //stack 6
+[21:50:38] [Server thread/INFO]: god_desu issued server command: //stack 6
+[21:50:41] [Server thread/INFO]: god_desu issued server command: //stack 6
+[21:51:00] [Server thread/INFO]: god_desu issued server command: //stack 4
+[21:51:15] [Server thread/INFO]: god_desu issued server command: //stack 4
+[21:51:23] [Server thread/INFO]: god_desu issued server command: //undo
+[21:51:27] [Server thread/INFO]: god_desu issued server command: //stack 4
+[22:02:01] [Server thread/INFO]: SARGE717 has made the advancement [Hidden in the Depths]
+[22:03:46] [Server thread/INFO]: god_desu issued server command: /kill
+[22:03:46] [Server thread/INFO]: god_desu fell out of the world
+[22:03:46] [Server thread/INFO]: [god_desu: Killed god_desu]
+[22:03:55] [Server thread/INFO]: god_desu issued server command: /tp SARGE717
+[22:03:55] [Server thread/INFO]: [god_desu: Teleported god_desu to SARGE717]
+[22:04:31] [Server thread/INFO]: god_desu issued server command: //wand
+[22:04:42] [Server thread/INFO]: god_desu issued server command: //stack 64
+[22:04:54] [Server thread/INFO]: god_desu issued server command: //undo
+[22:05:19] [Server thread/INFO]: god_desu issued server command: //stack 50
+[22:05:27] [Server thread/INFO]: god_desu issued server command: //stack 53
+[22:05:37] [Server thread/INFO]: god_desu issued server command: //stack 54
+[22:05:46] [Server thread/INFO]: god_desu issued server command: //stack 54
+[22:05:55] [Server thread/INFO]: god_desu issued server command: //stack 54
+[22:06:24] [Server thread/INFO]: god_desu issued server command: //stack 20
+[22:06:28] [Server thread/INFO]: god_desu issued server command: //stack 30
+[22:06:32] [Server thread/INFO]: god_desu issued server command: //stack 33
+[22:06:41] [Server thread/INFO]: god_desu issued server command: //stack 34
+[22:06:47] [Server thread/INFO]: god_desu issued server command: //stack 34
+[22:06:56] [Server thread/INFO]: god_desu issued server command: //stack 34
+[22:07:04] [Server thread/INFO]: god_desu issued server command: //stack 34
+[22:08:17] [Server thread/INFO]: god_desu issued server command: //stack 10
+[22:08:23] [Server thread/INFO]: god_desu issued server command: //undo
+[22:08:28] [Server thread/INFO]: god_desu issued server command: //undo
+[22:08:46] [Server thread/INFO]: god_desu issued server command: //stack 34
+[22:09:03] [Server thread/INFO]: god_desu issued server command: //stack 10
+[22:10:32] [Server thread/INFO]: god_desu issued server command: //stack 20
+[22:10:39] [Server thread/INFO]: god_desu issued server command: //undo
+[22:10:47] [Server thread/INFO]: god_desu issued server command: //stack 20
+[22:10:52] [Server thread/INFO]: god_desu issued server command: //stack 50
+[22:10:58] [Server thread/INFO]: god_desu issued server command: //stack 52
+[22:11:08] [Server thread/INFO]: god_desu issued server command: //stack 52
+[22:11:25] [Server thread/INFO]: god_desu issued server command: //stack 52
+[22:11:35] [Server thread/INFO]: god_desu issued server command: //undo
+[22:11:36] [Server thread/INFO]: god_desu issued server command: //undo
+[22:11:37] [Server thread/INFO]: god_desu issued server command: //undo
+[22:11:39] [Server thread/INFO]: god_desu issued server command: //undo
+[22:11:41] [Server thread/INFO]: god_desu issued server command: //undo
+[22:12:08] [Server thread/INFO]: god_desu issued server command: //stack 52
+[22:12:21] [Server thread/INFO]: god_desu issued server command: //stack 52
+[22:12:29] [Server thread/INFO]: god_desu issued server command: //stack 52
+[22:12:44] [Server thread/INFO]: god_desu issued server command: //stack 52
+[22:12:57] [Server thread/INFO]: god_desu issued server command: //stack 52
+[22:14:13] [Server thread/INFO]: god_desu issued server command: //stack 52
+[22:14:22] [Server thread/INFO]: god_desu issued server command: //stack 52
+[22:14:42] [Server thread/INFO]: god_desu issued server command: //stack 52
+[22:15:37] [Server thread/INFO]: god_desu issued server command: //stack 10
+[22:15:40] [Server thread/INFO]: god_desu issued server command: //undo
+[22:15:45] [Server thread/INFO]: god_desu issued server command: //undo
+[22:15:51] [Server thread/INFO]: god_desu issued server command: //stack 10
+[22:15:56] [Server thread/INFO]: god_desu issued server command: //stack 20
+[22:16:08] [Server thread/INFO]: god_desu issued server command: //stack 20
+[22:16:12] [Server thread/INFO]: god_desu issued server command: //stack 50
+[22:16:27] [Server thread/INFO]: god_desu issued server command: //stack 50
+[22:16:43] [Server thread/INFO]: god_desu issued server command: //stack 53
+[22:16:56] [Server thread/INFO]: god_desu issued server command: //stack 53
+[22:17:34] [Server thread/INFO]: SARGE717 has made the advancement [A Throwaway Joke]
+[22:17:39] [Server thread/INFO]: SARGE717 has made the advancement [Monster Hunter]
+[22:18:10] [Server thread/INFO]: god_desu issued server command: //stack 53
+[22:18:27] [Server thread/INFO]: god_desu issued server command: //stack 53
+[22:18:44] [Server thread/INFO]: god_desu issued server command: //stack 53
+[22:19:22] [Server thread/INFO]: god_desu issued server command: //stack 10
+[22:19:40] [Server thread/INFO]: god_desu issued server command: //stack 10
+[22:19:52] [Server thread/INFO]: god_desu issued server command: //stack 10
+[22:22:10] [Server thread/INFO]: god_desu issued server command: /difficulty peaceful
+[22:22:10] [Server thread/INFO]: [god_desu: The difficulty has been set to Peaceful]
+[22:22:20] [Server thread/INFO]: god_desu issued server command: /kill all
+[22:23:13] [Server thread/INFO]: god_desu has made the advancement [A Throwaway Joke]
+[22:23:37] [Server thread/INFO]: god_desu issued server command: /difficulty hard
+[22:23:37] [Server thread/INFO]: [god_desu: The difficulty has been set to Hard]
+[22:23:51] [Server thread/INFO]: god_desu has made the advancement [Spooky Scary Skeleton]
+[22:24:17] [Server thread/INFO]: god_desu has made the advancement [Withering Heights]
+[22:24:56] [Server thread/INFO]: god_desu issued server command: /tp SARGE717 god_desu
+[22:24:56] [Server thread/INFO]: [god_desu: Teleported SARGE717 to god_desu]
+[22:26:06] [Server thread/INFO]: SARGE717 has made the advancement [Withering Heights]
+[22:27:27] [Server thread/INFO]: god_desu issued server command: //wand
+[22:27:54] [Server thread/INFO]: god_desu issued server command: //stack 10
+[22:27:58] [Server thread/INFO]: god_desu issued server command: //stack 10
+[22:29:31] [Server thread/INFO]: god_desu has made the advancement [Acquire Hardware]
+[22:29:35] [Server thread/INFO]: Villager EntityVillager['Villager'/18813, l='ServerLevel[world]', x=1756.49, y=62.00, z=3775.92] died, message: 'Villager withered away'
+[22:29:36] [Server thread/INFO]: Villager EntityVillager['Villager'/18808, l='ServerLevel[world]', x=1759.49, y=62.00, z=3778.50] died, message: 'Villager was shot by a skull from Wither'
+[22:29:38] [Server thread/INFO]: Villager EntityVillager['Villager'/18826, l='ServerLevel[world]', x=1797.16, y=61.00, z=3755.45] died, message: 'Villager was shot by a skull from Wither'
+[22:29:39] [Server thread/INFO]: Villager EntityVillager['Villager'/18816, l='ServerLevel[world]', x=1758.85, y=62.00, z=3795.76] died, message: 'Villager withered away'
+[22:29:39] [Server thread/INFO]: Villager EntityVillager['Villager'/18852, l='ServerLevel[world]', x=1756.42, y=62.00, z=3772.56] died, message: 'Villager withered away'
+[22:29:41] [Server thread/INFO]: Villager EntityVillager['Villager'/18802, l='ServerLevel[world]', x=1752.31, y=62.00, z=3766.45] died, message: 'Villager withered away'
+[22:29:41] [Server thread/INFO]: Villager EntityVillager['Villager'/18847, l='ServerLevel[world]', x=1758.40, y=62.00, z=3768.84] died, message: 'Villager withered away'
+[22:29:41] [Server thread/INFO]: Villager EntityVillager['Villager'/18867, l='ServerLevel[world]', x=1741.41, y=62.00, z=3778.41] died, message: 'Villager withered away'
+[22:29:42] [Server thread/INFO]: Villager EntityVillager['Villager'/18875, l='ServerLevel[world]', x=1738.44, y=62.00, z=3770.78] died, message: 'Villager withered away'
+[22:29:44] [Server thread/INFO]: Villager EntityVillager['Villager'/18785, l='ServerLevel[world]', x=1768.49, y=62.00, z=3760.92] died, message: 'Villager withered away whilst fighting Wither'
+[22:29:45] [Server thread/INFO]: Villager EntityVillager['Villager'/18864, l='ServerLevel[world]', x=1748.67, y=62.00, z=3773.69] died, message: 'Villager withered away'
+[22:29:45] [Server thread/INFO]: Villager EntityVillager['Villager'/18853, l='ServerLevel[world]', x=1755.10, y=62.00, z=3782.50] died, message: 'Villager withered away'
+[22:29:45] [Server thread/INFO]: Villager EntityVillager['Villager'/18880, l='ServerLevel[world]', x=1752.02, y=62.00, z=3765.55] died, message: 'Villager withered away'
+[22:29:48] [Server thread/INFO]: Villager EntityVillager['Villager'/18924, l='ServerLevel[world]', x=1761.78, y=62.00, z=3771.08] died, message: 'Villager withered away'
+[22:29:52] [Server thread/INFO]: Villager EntityVillager['Villager'/18849, l='ServerLevel[world]', x=1743.82, y=62.00, z=3783.58] died, message: 'Villager was shot by a skull from Wither'
+[22:29:53] [Server thread/INFO]: Villager EntityVillager['Villager'/18906, l='ServerLevel[world]', x=1758.56, y=62.00, z=3766.42] died, message: 'Villager withered away whilst fighting Wither'
+[22:29:56] [Server thread/INFO]: Villager EntityVillager['Villager'/18929, l='ServerLevel[world]', x=1774.29, y=62.00, z=3764.92] died, message: 'Villager withered away'
+[22:29:57] [Server thread/INFO]: Villager EntityVillager['Villager'/18801, l='ServerLevel[world]', x=1765.94, y=62.00, z=3766.88] died, message: 'Villager withered away'
+[22:29:58] [Server thread/INFO]: Villager EntityVillager['Villager'/18910, l='ServerLevel[world]', x=1767.45, y=62.00, z=3773.70] died, message: 'Villager withered away'
+[22:29:58] [Server thread/INFO]: Villager EntityVillager['Villager'/18923, l='ServerLevel[world]', x=1762.32, y=62.00, z=3733.68] died, message: 'Villager was shot by a skull from Wither'
+[22:29:59] [Server thread/INFO]: Villager EntityVillager['Villager'/18783, l='ServerLevel[world]', x=1769.10, y=62.00, z=3754.43] died, message: 'Villager withered away whilst fighting Wither'
+[22:30:01] [Server thread/INFO]: SARGE717 has made the advancement [Ol' Betsy]
+[22:30:01] [Server thread/INFO]: SARGE717 has made the advancement [Take Aim]
+[22:30:01] [Server thread/INFO]: Villager EntityVillager['Villager'/18904, l='ServerLevel[world]', x=1750.53, y=62.00, z=3739.64] died, message: 'Villager withered away'
+[22:30:02] [Server thread/INFO]: Villager EntityVillager['Villager'/18935, l='ServerLevel[world]', x=1768.44, y=62.00, z=3775.04] died, message: 'Villager withered away whilst fighting Wither'
+[22:30:03] [Server thread/INFO]: Villager EntityVillager['Villager'/18920, l='ServerLevel[world]', x=1772.13, y=62.00, z=3776.51] died, message: 'Villager was shot by a skull from Wither'
+[22:30:04] [Server thread/INFO]: Villager EntityVillager['Villager'/18933, l='ServerLevel[world]', x=1775.52, y=62.00, z=3769.97] died, message: 'Villager withered away'
+[22:30:06] [Server thread/INFO]: Villager EntityVillager['Villager'/18786, l='ServerLevel[world]', x=1770.29, y=62.00, z=3757.40] died, message: 'Villager withered away whilst fighting Wither'
+[22:30:08] [Server thread/INFO]: Villager EntityVillager['Villager'/18896, l='ServerLevel[world]', x=1741.33, y=62.00, z=3772.65] died, message: 'Villager withered away'
+[22:30:13] [Server thread/INFO]: Villager EntityVillager['Villager'/18905, l='ServerLevel[world]', x=1755.00, y=62.00, z=3764.50] died, message: 'Villager withered away whilst fighting Wither'
+[22:30:13] [Server thread/INFO]: Villager EntityVillager['Villager'/18780, l='ServerLevel[world]', x=1769.73, y=62.00, z=3773.51] died, message: 'Villager was shot by a skull from Wither'
+[22:30:14] [Server thread/INFO]: Villager EntityVillager['Villager'/18891, l='ServerLevel[world]', x=1741.18, y=62.00, z=3752.19] died, message: 'Villager withered away whilst fighting Wither'
+[22:30:14] [Server thread/INFO]: Villager EntityVillager['Villager'/18914, l='ServerLevel[world]', x=1753.48, y=62.00, z=3764.49] died, message: 'Villager was shot by a skull from Wither'
+[22:30:15] [Server thread/INFO]: Villager EntityVillager['Villager'/18787, l='ServerLevel[world]', x=1750.71, y=62.00, z=3763.48] died, message: 'Villager withered away'
+[22:30:15] [Server thread/INFO]: Villager EntityVillager['Villager'/18882, l='ServerLevel[world]', x=1747.41, y=62.00, z=3783.76] died, message: 'Villager was shot by a skull from Wither'
+[22:30:16] [Server thread/INFO]: Villager EntityVillager['Villager'/18824, l='ServerLevel[world]', x=1764.50, y=62.00, z=3792.06] died, message: 'Villager withered away whilst fighting Wither'
+[22:30:17] [Server thread/INFO]: Villager EntityVillager['Villager'/18789, l='ServerLevel[world]', x=1735.83, y=62.00, z=3767.83] died, message: 'Villager withered away'
+[22:30:20] [Server thread/INFO]: Villager EntityVillager['Villager'/18856, l='ServerLevel[world]', x=1756.54, y=62.00, z=3792.55] died, message: 'Villager withered away'
+[22:30:21] [Server thread/INFO]: Villager EntityVillager['Villager'/18917, l='ServerLevel[world]', x=1749.38, y=62.00, z=3753.50] died, message: 'Villager withered away'
+[22:30:23] [Server thread/INFO]: Villager EntityVillager['Villager'/18865, l='ServerLevel[world]', x=1757.56, y=62.00, z=3772.67] died, message: 'Villager withered away whilst fighting Wither'
+[22:30:24] [Server thread/INFO]: Villager EntityVillager['Villager'/18926, l='ServerLevel[world]', x=1763.67, y=62.00, z=3765.35] died, message: 'Villager was blown up by Wither'
+[22:30:26] [Server thread/INFO]: Villager EntityVillager['Villager'/18883, l='ServerLevel[world]', x=1745.52, y=62.00, z=3767.05] died, message: 'Villager was shot by a skull from Wither'
+[22:30:28] [Server thread/INFO]: Villager EntityVillager['Villager'/18899, l='ServerLevel[world]', x=1741.26, y=62.00, z=3769.74] died, message: 'Villager withered away'
+[22:30:28] [Server thread/INFO]: Villager EntityVillager['Villager'/18908, l='ServerLevel[world]', x=1752.67, y=62.00, z=3771.21] died, message: 'Villager was shot by a skull from Wither'
+[22:30:30] [Server thread/INFO]: Villager EntityVillager['Villager'/18793, l='ServerLevel[world]', x=1765.60, y=62.00, z=3753.70] died, message: 'Villager withered away'
+[22:30:30] [Server thread/INFO]: Villager EntityVillager['Villager'/18866, l='ServerLevel[world]', x=1764.11, y=62.00, z=3772.52] died, message: 'Villager withered away'
+[22:30:31] [Server thread/INFO]: Villager EntityVillager['Villager'/18884, l='ServerLevel[world]', x=1764.59, y=63.00, z=3730.50] died, message: 'Villager withered away'
+[22:30:34] [Server thread/INFO]: Villager EntityVillager['Villager'/18922, l='ServerLevel[world]', x=1755.32, y=62.00, z=3752.52] died, message: 'Villager was blown up by Wither'
+[22:30:34] [Server thread/INFO]: Villager EntityVillager['Villager'/18878, l='ServerLevel[world]', x=1748.63, y=62.00, z=3748.60] died, message: 'Villager withered away whilst fighting Wither'
+[22:32:36] [User Authenticator #4/INFO]: UUID of player ItsNobro is bcb92ab9-9f52-43db-8c51-a356a2cf13b8
+[22:32:36] [Server thread/INFO]: ItsNobro joined the game
+[22:32:36] [Server thread/INFO]: ItsNobro[/197.90.100.217:58215] logged in with entity id 21738 at ([world]1770.5, 62.0, 3779.5)
+[22:33:59] [Server thread/INFO]: god_desu issued server command: /difficulty peaceful
+[22:33:59] [Server thread/INFO]: [god_desu: The difficulty has been set to Peaceful]
+[22:34:08] [Server thread/INFO]: god_desu issued server command: /gamemode creative ItsNobro
+[22:34:08] [Server thread/INFO]: [god_desu: Set ItsNobro's game mode to Creative Mode]
+[22:34:22] [Server thread/INFO]: god_desu issued server command: //wand
+[22:34:32] [Server thread/INFO]: god_desu issued server command: //stack 10
+[22:35:01] [Server thread/INFO]: god_desu issued server command: //hcyl white_concrete 40 100
+[22:35:05] [Server thread/INFO]: god_desu issued server command: //undo
+[22:35:20] [Server thread/INFO]: god_desu issued server command: //hcyl white_concrete 40 13
+[22:35:27] [Server thread/INFO]: god_desu issued server command: //hcyl white_concrete 40 30
+[22:35:43] [Server thread/INFO]: god_desu issued server command: //hcyl white_concrete 40 100
+[22:36:17] [Server thread/INFO]: god_desu issued server command: //hcyl bedrock 38 100
+[22:36:29] [Server thread/INFO]: god_desu issued server command: //cyl bedrock 38 1
+[22:36:43] [Server thread/INFO]: god_desu issued server command: //stack 100
+[22:37:09] [Server thread/INFO]: god_desu issued server command: //cyl bedrock 38 1
+[22:37:58] [Server thread/INFO]: god_desu issued server command: /difficulty hard
+[22:37:58] [Server thread/INFO]: [god_desu: The difficulty has been set to Hard]
+[22:39:06] [Server thread/INFO]: god_desu issued server command: //hcyl glowstone 20 1
+[22:39:14] [Server thread/INFO]: god_desu issued server command: //hcyl glowstone 25 1
+[22:39:28] [Server thread/INFO]: god_desu issued server command: //hcyl glowstone 30 1
+[22:39:34] [Server thread/INFO]: god_desu issued server command: //hcyl glowstone 15 1
+[22:39:37] [Server thread/INFO]: god_desu issued server command: //hcyl glowstone 10 1
+[22:41:31] [Server thread/INFO]: god_desu issued server command: //stack 100
+[22:42:45] [Server thread/INFO]: god_desu issued server command: //hcyl bedrock 38 100
+[22:44:34] [Server thread/INFO]: god_desu issued server command: /deop SARGE717
+[22:44:34] [Server thread/INFO]: [god_desu: Made SARGE717 no longer a server operator]
+[22:45:07] [Server thread/INFO]: god_desu issued server command: //hcyl glowstone 10 1
+[22:45:44] [Server thread/INFO]: god_desu issued server command: //stack 30
+[22:48:08] [Server thread/INFO]: god_desu issued server command: //stack 20
+[22:48:45] [Server thread/INFO]: god_desu issued server command: /gamemode survival SARGE717
+[22:48:45] [Server thread/INFO]: [god_desu: Set SARGE717's game mode to Survival Mode]
+[22:48:50] [Server thread/INFO]: god_desu issued server command: /tp SARGE717
+[22:48:50] [Server thread/INFO]: [god_desu: Teleported god_desu to SARGE717]
+[22:50:53] [Server thread/INFO]: god_desu issued server command: //stack 10
+[22:51:40] [Server thread/INFO]: god_desu issued server command: //stack 4
+[22:51:44] [Server thread/INFO]: god_desu issued server command: //stack 5
+[22:51:47] [Server thread/INFO]: god_desu issued server command: //stack 7
+[22:51:51] [Server thread/INFO]: god_desu issued server command: //stack 8
+[22:52:09] [Server thread/INFO]: god_desu issued server command: //undo
+[22:52:10] [Server thread/INFO]: god_desu issued server command: //undo
+[22:52:11] [Server thread/INFO]: god_desu issued server command: //undo
+[22:52:11] [Server thread/INFO]: god_desu issued server command: //undo
+[22:52:12] [Server thread/INFO]: god_desu issued server command: //undo
+[22:52:12] [Server thread/INFO]: god_desu issued server command: //undo
+[22:52:34] [Server thread/INFO]: god_desu issued server command: //stack 8
+[22:52:45] [Server thread/INFO]: ItsNobro issued server command: /tp sarg
+[22:52:46] [Server thread/INFO]: god_desu issued server command: /tp ItsNobro SARGE717
+[22:52:46] [Server thread/INFO]: [god_desu: Teleported ItsNobro to SARGE717]
+[22:52:49] [Server thread/INFO]: god_desu issued server command: //stack 10
+[22:52:52] [Server thread/INFO]: god_desu issued server command: //stack 14
+[22:52:55] [Server thread/INFO]: god_desu issued server command: //undo
+[22:52:57] [Server thread/INFO]: god_desu issued server command: //stack 13
+[22:53:18] [Server thread/INFO]: god_desu issued server command: //undo
+[22:53:20] [Server thread/INFO]: god_desu issued server command: //undo
+[22:53:22] [Server thread/INFO]: god_desu issued server command: //undo
+[22:53:23] [Server thread/INFO]: god_desu issued server command: //undo
+[22:53:24] [Server thread/INFO]: god_desu issued server command: //undo
+[22:53:28] [Server thread/INFO]: god_desu issued server command: //undo
+[22:53:29] [Server thread/INFO]: god_desu issued server command: //undo
+[22:53:30] [Server thread/INFO]: god_desu issued server command: //undo
+[22:53:45] [Server thread/INFO]: god_desu issued server command: //clearhistory
+[22:55:10] [Server thread/INFO]: god_desu issued server command: //stack 30
+[22:55:21] [Server thread/INFO]: god_desu issued server command: //undo
+[22:55:50] [Server thread/INFO]: god_desu has made the advancement [Hot Stuff]
+[22:56:08] [Server thread/INFO]: god_desu issued server command: //stack 30
+[22:56:13] [Server thread/INFO]: god_desu issued server command: //stack 35
+[22:56:19] [Server thread/INFO]: god_desu issued server command: //stack 36
+[22:56:32] [Server thread/INFO]: god_desu issued server command: //stack 36
+[22:56:48] [Server thread/INFO]: god_desu issued server command: //stack 36
+[22:57:04] [Server thread/INFO]: god_desu issued server command: //stack 36
+[22:57:35] [Server thread/INFO]: god_desu issued server command: //stack 3
+[22:57:39] [Server thread/INFO]: god_desu issued server command: //stack 3
+[22:57:48] [Server thread/INFO]: god_desu issued server command: //stack 5
+[22:57:51] [Server thread/INFO]: god_desu issued server command: //stack 6
+[22:57:59] [Server thread/INFO]: god_desu issued server command: //stack 3
+[22:58:02] [Server thread/INFO]: god_desu issued server command: //stack 5
+[22:58:23] [Server thread/INFO]: god_desu issued server command: //stack 5
+[22:58:28] [Server thread/INFO]: god_desu issued server command: //stack 5
+[22:58:35] [Server thread/INFO]: god_desu issued server command: //stack 3
+[22:58:59] [Server thread/INFO]: god_desu issued server command: //stack 60
+[22:59:08] [Server thread/INFO]: god_desu issued server command: //undo
+[22:59:16] [Server thread/INFO]: god_desu issued server command: //stack 29
+[22:59:23] [Server thread/INFO]: god_desu issued server command: //stack 40
+[22:59:29] [Server thread/INFO]: god_desu issued server command: //stack 59
+[22:59:32] [Server thread/INFO]: god_desu issued server command: //undo
+[22:59:35] [Server thread/INFO]: god_desu issued server command: //stack 55
+[22:59:38] [Server thread/INFO]: god_desu issued server command: //undo
+[22:59:41] [Server thread/INFO]: god_desu issued server command: //stack 50
+[22:59:45] [Server thread/INFO]: god_desu issued server command: //stack 52
+[22:59:59] [Server thread/INFO]: god_desu issued server command: //stack 52
+[23:00:15] [Server thread/INFO]: god_desu issued server command: //stack 52
+[23:00:33] [Server thread/INFO]: god_desu issued server command: //stack 52
+[23:01:26] [Server thread/INFO]: god_desu issued server command: /difficulty peaceful
+[23:01:26] [Server thread/INFO]: [god_desu: The difficulty has been set to Peaceful]
+[23:01:31] [Server thread/INFO]: god_desu issued server command: /difficulty hard
+[23:01:31] [Server thread/INFO]: [god_desu: The difficulty has been set to Hard]
+[23:08:15] [Server thread/INFO]: god_desu issued server command: /op ItsNobro
+[23:08:15] [Server thread/INFO]: [god_desu: Made ItsNobro a server operator]
+[23:08:26] [Server thread/INFO]: ItsNobro issued server command: /wand
+[23:08:36] [Server thread/INFO]: god_desu issued server command: //set smooth_quartz
+[23:08:47] [Server thread/INFO]: god_desu issued server command: //set smooth_quartz
+[23:08:49] [Server thread/INFO]: ItsNobro issued server command: /wand
+[23:08:54] [Server thread/INFO]: ItsNobro issued server command: /wand
+[23:08:58] [Server thread/INFO]: god_desu issued server command: //set smooth_quartz
+[23:09:02] [Server thread/INFO]: ItsNobro issued server command: /worldedit:/wand
+[23:09:06] [Server thread/INFO]: god_desu issued server command: //set smooth_quartz
+[23:11:50] [Server thread/INFO]: god_desu issued server command: //stack 1
+[23:12:29] [Server thread/INFO]: god_desu issued server command: //set air
+[23:15:35] [Server thread/INFO]: god_desu issued server command: //stack 3
+[23:15:39] [Server thread/INFO]: god_desu issued server command: //stack 4
+[23:15:45] [Server thread/INFO]: god_desu issued server command: //stack 4
+[23:16:26] [Server thread/INFO]: ItsNobro lost connection: Disconnected
+[23:16:26] [Server thread/INFO]: ItsNobro left the game
+[23:17:48] [User Authenticator #5/INFO]: UUID of player ItsNobro is bcb92ab9-9f52-43db-8c51-a356a2cf13b8
+[23:17:48] [Server thread/INFO]: ItsNobro joined the game
+[23:17:48] [Server thread/INFO]: ItsNobro[/197.90.100.217:60620] logged in with entity id 61352 at ([world]1772.228785867163, 304.0, 3742.7353046524395)
+[23:21:08] [Server thread/INFO]: god_desu issued server command: //stack 5
+[23:21:15] [Server thread/INFO]: god_desu issued server command: //stack 6
+[23:21:32] [Server thread/INFO]: ItsNobro issued server command: /worldedit:/replace air
+[23:21:41] [Server thread/INFO]: god_desu issued server command: //stack 6
+[23:21:47] [Server thread/INFO]: ItsNobro issued server command: /worldedit:/replace air
+[23:21:53] [Server thread/INFO]: god_desu issued server command: //stack 1
+[23:22:09] [Server thread/INFO]: god_desu issued server command: //stack 9
+[23:22:15] [Server thread/INFO]: god_desu issued server command: //stack 10
+[23:22:17] [Server thread/INFO]: god_desu issued server command: //stack 11
+[23:23:32] [Server thread/INFO]: god_desu issued server command: //stack 4
+[23:23:35] [Server thread/INFO]: god_desu issued server command: //stack 6
+[23:23:47] [Server thread/INFO]: god_desu issued server command: //stack 6
+[23:23:49] [Server thread/INFO]: ItsNobro issued server command: /worldedit:/replace air
+[23:24:16] [Server thread/INFO]: god_desu issued server command: /tp SARGE717 god_desu
+[23:24:16] [Server thread/INFO]: [god_desu: Teleported SARGE717 to god_desu]
+[23:26:18] [Server thread/INFO]: god_desu issued server command: //copy
+[23:26:28] [Server thread/INFO]: ItsNobro issued server command: /worldedit:/copy
+[23:26:35] [Server thread/INFO]: god_desu issued server command: //pate
+[23:26:37] [Server thread/INFO]: god_desu issued server command: //paste
+[23:26:47] [Server thread/INFO]: ItsNobro issued server command: /worldedit:/paste
+[23:26:59] [Server thread/INFO]: god_desu issued server command: //undo
+[23:27:30] [Server thread/INFO]: ItsNobro issued server command: /worldedit:/paste
+[23:27:44] [Server thread/INFO]: ItsNobro issued server command: /worldedit:/paste
+[23:28:07] [Server thread/INFO]: god_desu issued server command: //rotate 180
+[23:28:10] [Server thread/INFO]: god_desu issued server command: //paste
+[23:28:45] [Server thread/INFO]: god_desu issued server command: //rotate 90
+[23:28:54] [Server thread/INFO]: god_desu issued server command: //paste
+[23:29:13] [Server thread/INFO]: god_desu issued server command: //rotate 180
+[23:29:17] [Server thread/INFO]: god_desu issued server command: //paste
+[23:30:54] [Server thread/INFO]: god_desu issued server command: //set birch_planks
+[23:31:13] [Server thread/INFO]: god_desu issued server command: //stack 100
+[23:31:18] [Server thread/INFO]: god_desu issued server command: //undo
+[23:31:21] [Server thread/INFO]: god_desu issued server command: //stack 30
+[23:31:30] [Server thread/INFO]: god_desu issued server command: //undo
+[23:31:33] [Server thread/INFO]: god_desu issued server command: //stack 20
+[23:32:19] [Server thread/INFO]: god_desu issued server command: //stack 4
+[23:32:29] [Server thread/INFO]: god_desu issued server command: //stack 4
+[23:32:41] [Server thread/INFO]: god_desu issued server command: //stack 4
+[23:32:52] [Server thread/INFO]: god_desu issued server command: //stack 4
+[23:34:31] [Server thread/INFO]: ItsNobro lost connection: Disconnected
+[23:34:31] [Server thread/INFO]: ItsNobro left the game
+[23:35:28] [Server thread/INFO]: god_desu issued server command: //copy
+[23:35:41] [Server thread/INFO]: god_desu issued server command: //rotate 90
+[23:35:46] [Server thread/INFO]: god_desu issued server command: //paste
+[23:35:52] [Server thread/INFO]: god_desu issued server command: //undo
+[23:35:57] [Server thread/INFO]: god_desu issued server command: //rotate 90
+[23:36:03] [Server thread/INFO]: god_desu issued server command: //paste
+[23:36:14] [Server thread/INFO]: god_desu issued server command: //rotate 90
+[23:36:16] [Server thread/INFO]: god_desu issued server command: //paste
+[23:36:24] [Server thread/INFO]: god_desu issued server command: //undo
+[23:36:29] [Server thread/INFO]: god_desu issued server command: //rotate 180
+[23:36:32] [Server thread/INFO]: god_desu issued server command: //paste
+[23:36:43] [Server thread/INFO]: god_desu issued server command: //rotate 180
+[23:36:44] [Server thread/INFO]: god_desu issued server command: //paste
+[23:37:06] [User Authenticator #6/INFO]: UUID of player ItsNobro is bcb92ab9-9f52-43db-8c51-a356a2cf13b8
+[23:37:06] [Server thread/INFO]: ItsNobro joined the game
+[23:37:06] [Server thread/INFO]: ItsNobro[/197.90.100.217:61045] logged in with entity id 63790 at ([world]1754.8417634936995, 324.06366346099975, 3756.475919619108)
+[23:40:16] [Server thread/INFO]: ItsNobro lost connection: Disconnected
+[23:40:16] [Server thread/INFO]: ItsNobro left the game
+[23:41:14] [Server thread/INFO]: SARGE717 lost connection: Disconnected
+[23:41:14] [Server thread/INFO]: SARGE717 left the game
+[23:41:50] [Server thread/INFO]: god_desu issued server command: /setworldspawn
+[23:41:50] [Server thread/INFO]: [god_desu: Set the world spawn point to 1771, 311, 3747 [0.0]]
+[23:41:54] [Server thread/INFO]: god_desu lost connection: Disconnected
+[23:41:54] [Server thread/INFO]: god_desu left the game
+[23:42:03] [Server thread/INFO]: Stopping the server
+[23:42:03] [Server thread/INFO]: Stopping server
+[23:42:03] [Server thread/INFO]: [ChestSort] Disabling ChestSort v13.5.1
+[23:42:03] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
+[23:42:03] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[23:42:03] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v2.0.6
+[23:42:03] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
+[23:42:03] [Server thread/INFO]: [spark] Disabling spark v1.10.29
+[23:42:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.13+46576cc
+[23:42:03] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[23:42:03] [Server thread/INFO]: [MultipleBedSpawn] Disabling MultipleBedSpawn v1.4.1
+[23:42:03] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[23:42:03] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[23:42:03] [Server thread/INFO]: Saving players
+[23:42:03] [Server thread/INFO]: Saving worlds
+[23:42:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:42:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:42:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:42:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:42:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:42:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:42:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
